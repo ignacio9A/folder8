@@ -1,0 +1,151 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Advanced HTML Structure</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #F0F4F8; /* Light grayish-blue background */
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: #003366; /* Navy blue header */
+      color: #FFFFFF; /* White text */
+      text-align: center;
+      padding: 1em;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #B0C4DE; /* Light Steel Blue */
+      color: #333333; /* Dark text for readability */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #4F6D7A; /* Steel Blue for headers */
+      color: #FFFFFF; /* White text */
+    }
+
+    tr:nth-child(even) {
+      background-color: #D1D8E0; /* Lighter shade for even rows */
+    }
+
+    button {
+      display: block;
+      width: 200px;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #6C8EAD; /* Light Blue */
+      color: #FFFFFF; /* White text */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #5A7A8B; /* Slightly darker blue shade on hover */
+    }
+
+    .image-container {
+      text-align: center;
+      margin: 20px;
+    }
+
+    iframe {
+      border: none;
+      width: 560px;
+      height: 315px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1> Discrimination</h1>
+    <p>Explore the interactive table, embedded YouTube video, and image below.</p>
+  </header>
+
+  <main>
+    <!-- Main Speech Table -->
+    <table>
+      <caption><strong>Main Speech</strong></caption>
+      <thead>
+        <tr>
+          <th>Speech</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>Ignacio, Juliana Mae A.</p>
+            <p>Discrimination is a renowned word that has lasted throughout history, from the past to the present day, and remains a significant issue. It's more than just a word; it's an experience that people suffer through, whether it’s because of race, gender, religion, or background. Some believe that everyone is born with hate in their heart, and while not everyone is innocent, discrimination affects us all. Everyone has been discriminated against, and some have stood up, while others silently bear it, not knowing what to do or lacking the strength to fight for themselves or others. People like Sojourner Truth showed us that courage is needed to fight for what’s right. Discrimination is born from fear of those different from ourselves and it seeks to destroy those who stand out. We all have a role in this fight, whether by standing up for others, being kind, or challenging hateful words. While discrimination won’t end overnight, every step we take brings us closer to a world where everyone is seen, heard, and valued.</p>
+            <p>My name is Juliana, and I stand before you to inspire change.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Highlighted Part Table -->
+    <table>
+      <caption><strong>Highlighted Part</strong></caption>
+      <thead>
+        <tr>
+          <th>Highlighted Text</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <p>Everyone has been discriminated against, and some have stood up, while others silently bear it, not knowing what to do or lacking the strength to fight for themselves or others. People like Sojourner Truth showed us that courage is needed to fight for what’s right. Discrimination is born from fear of those different from ourselves and it seeks to destroy those who stand out.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- YouTube Video Embed -->
+    <div class="image-container">
+      <h2>Watch Video</h2>
+      <iframe src="https://www.youtube.com/embed/RsldtV4jWA0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Replaced Pinterest image with new image -->
+    <div class="image-container">
+      <h2>Related Image</h2>
+      <img src="https://images.app.goo.gl/gJyTHdHYAoK5g93D6" alt="Related Image" />
+    </div>
+
+    <!-- Clickable Pinterest Link -->
+    <div class="image-container">
+      <h2>Visit Pinterest</h2>
+      <a href="https://pin.it/OpUL9S44e" target="_blank" style="font-size: 18px; color: #003366; text-decoration: none; border: 1px solid #003366; padding: 10px; border-radius: 5px;">Click here to visit Pinterest</a>
+    </div>
+
+     </main>
+
+</body>
+</html>
